@@ -3420,6 +3420,10 @@ dl.accordion.time-line:before {
   width: 100%;
 }
 
+.feedback:{
+  border-radius: 50%;
+}
+
 .top-category-widget-area .single-cat-widget .content-details {
   top: 32%;
   left: 0;
