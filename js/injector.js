@@ -32,3 +32,23 @@ function inject_blog_data(data) {
                             </div>`
     return blog_string
 }
+
+function inject_project_data(data){
+    var projectData=`<div exp="${data.experience}" class="single-portfolio col-sm-4 all ${data.fclass}">
+                        <div class="relative">
+                            <div class="thumb">
+                                <div class="overlay overlay-bg"></div>
+                                 <img class="image img-fluid" src="img/p1.png" alt="">
+                            </div>
+                            <div class="middle">
+                                <div class="text align-self-center">
+                                    <h4>${data.project}</h4>
+                                    <h5>${data.stack}</h5>
+                                    </div>  
+                                </div>
+                            </div>
+                        <div class="p-inner">
+                        </div>                                                 
+                    </div>`
+    return projectData
+}
