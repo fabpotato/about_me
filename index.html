@@ -44,7 +44,7 @@
 			        <ul class="nav-menu">
 			          <li><a href="index.html">Home</a></li>
 			          <li><a href="blog-home.html">Blog</a></li>	
-			          <li><a href="downloads/Shubham_Resume_HSBC_kdb-developer.pdf">Download Resume</a></li>
+			          <li><a href="downloads/Shubham_Raj_UBS.pdf">Download Resume</a></li>
 
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
@@ -87,11 +87,13 @@
                   <div class="cd-h-timeline__dates">
                     <div class="cd-h-timeline__line">
                       <ol>
-                        <li><a href="#0" data-date="14/04/2013" class="cd-h-timeline__date cd-h-timeline__date--selected">Summary</a></li>
-                        <li><a href="#0" data-date="15/04/2013" class="cd-h-timeline__date">April 2013</a></li>
-                        <li><a href="#0" data-date="15/04/2017" class="cd-h-timeline__date">April 2017</a></li>
-                        <li><a href="#0" data-date="07/06/2017" class="cd-h-timeline__date">June 2017</a></li>
-                        <li><a href="#0" data-date="14/06/2018" class="cd-h-timeline__date">June 2018</a></li>
+                        <li><a href="#0" id="summary-tl" TLexp="summary-tl" data-date="14/04/2013" class="TLselector cd-h-timeline__date cd-h-timeline__date--selected">Summary</a></li>
+                        <li><a href="#0" id="school-tl" TLexp="school-tl" data-date="15/04/2013" class="TLselector cd-h-timeline__date">April 2013</a></li>
+                        <li><a href="#0" id="college-tl" TLexp="college-tl" data-date="15/04/2017" class="TLselector cd-h-timeline__date">April 2017</a></li>
+                        <li><a href="#0" id="treebo-tl" TLexp="treebo-tl" data-date="07/06/2017" class="TLselector cd-h-timeline__date">June 2017</a></li>
+                        <li><a href="#0" id="hsbc-tl" TLexp="hsbc-tl" data-date="14/06/2018" class="TLselector cd-h-timeline__date">June 2018</a></li>
+                        <li><a href="#0" id="cba-tl" TLexp="cba-tl" data-date="13/04/2020" class="TLselector cd-h-timeline__date">April 2020</a></li>
+                        <li><a href="#0" id="ubs-tl" TLexp="ubs-tl" data-date="08/02/2021" class="TLselector cd-h-timeline__date">Feb 2021</a></li>
                       </ol>
 
                       <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
@@ -115,7 +117,9 @@
                           	<li>Graduated High School from Delhi Public School, Bokaro</li>
                           	<li>Completed B.Tech in Electronics and Communication Engineering from Indian Institute of Technology, Roorkee</li>
                           	<li>Started working at Treebo Hotels as a Software Developer.</li>
-                          	<li>Started working at HSBC as a KDB+ Developer.</li>
+                            <li>Started working at HSBC as a KDB+ Developer.</li>
+                            <li>Started working at CBA(Excelian) as a KDB+ Developer/Team lead.</li>
+                          	<li>Started working at UBS as a KDB+ Developer.</li>
                           </ul>
                         </p>
                       </div>
@@ -169,7 +173,7 @@
                       </div>
                     </li>
 
-                    <li class="cd-h-timeline__event text-component">
+                    <li id="treebo-exp" class="cd-h-timeline__event text-component">
                       <div class="cd-h-timeline__event-content container">
                       	<img class = "cd-h-timeline__event-date" src="img/treebologo.png" alt="" height="70px">
 
@@ -206,7 +210,7 @@
                       </div>
                     </li>
 
-                    <li class="cd-h-timeline__event text-component">
+                    <li id="hsbc-exp" class="cd-h-timeline__event text-component">
                       <div class="cd-h-timeline__event-content container">
                       	<img class = "cd-h-timeline__event-date" src="img/hsbclogo.png" alt="" height="70px">
 
@@ -261,6 +265,54 @@
                         </p>
                       </div>
                     </li>
+
+                    <li id="treebo-exp" class="cd-h-timeline__event text-component">
+                      <div class="cd-h-timeline__event-content container">
+                        <img class = "cd-h-timeline__event-date" src="img/cbalogo.png" alt="" height="70px">
+
+                        <h2 class="cd-h-timeline__event-title">Joined CBA</h2>
+                        <em class="cd-h-timeline__event-date">April 13, 2020</em>
+                        <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                          Joined CBA as contingent worker through Excelian. <br>Some of my key Responsibilities:
+                          <ul>
+                            <li>
+                              <b>Leadership</b>
+                              <ul>
+                                <li>Managing a team of five. And acting as a POC for the australian counterpart.</li>
+                                <li>Coordinating with CBA, First Derivatives and TCS for activities</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <b>Automated Trade Surveillence</b>
+                              <ul>
+                                <li>Develop algorithms to generate post trade alerts based on certain benchmarks and rules.</li>
+                              </ul>
+                            </li>
+                            <li>
+                                <b>Misc</b>
+                                <ul>
+                                    <li>Production/Release support</li>
+                                    <li>Server patching and db migrations</li>
+                                </ul>
+                            </li>
+                          </ul>
+                        </p>
+                      </div>
+                    </li>
+
+                    <li id="treebo-exp" class="cd-h-timeline__event text-component">
+                      <div class="cd-h-timeline__event-content container">
+                        <img class = "cd-h-timeline__event-date" src="img/ubslogo.png" alt="" height="70px">
+
+                        <h2 class="cd-h-timeline__event-title">Joined UBS</h2>
+                        <em class="cd-h-timeline__event-date">Feb 8, 2021</em>
+                        <p class="cd-h-timeline__event-description color-contrast-medium"> 
+                          Joined UBS as Authorised Officer. <br>Some of my key Responsibilities:
+                          <br>TBA
+                        </p>
+                      </div>
+                    </li>
+
                   </ol>
                 </div> <!-- .cd-h-timeline__events -->
             </section>
@@ -272,20 +324,12 @@
 			<section class="home-about-area pt-120">
 				<div class="container">
 					<div class="row align-items-center justify-content-between">
-						<!-- <div class="col-lg-6 col-md-6 home-about-right">
-							<h6>About Me</h6>
-							<h1 class="text-uppercase">Personal Details</h1>
-							<p>
-								Here, I focus on a range of items and features that we use in life without giving them a second thought. such as Coca Cola. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-							</p>
-							<a href="#" class="primary-btn text-uppercase">View Full Details</a>
-						</div> -->
 						<div class="col-lg-12 col-md-12">
 							<div class="title text-center">
-		                        <h1 class="mb-10">Skill Set</h1>
-		                        <p>Some of my skillsets worth highlighting.</p>
-		                       	<div class="row">
-		                    		<div class="col-lg-4 col-md-6">
+                <h1 class="mb-10">Skill Set</h1>
+                <p>Some of my skillsets worth highlighting.</p>
+               	<div class="row">
+            		  <div class="col-lg-4 col-md-6">
 										<div class="single-services">
 											<span class="lnr lnr-select"></span>
 											<a href="#"><p>Web Development</p></a>
@@ -321,15 +365,14 @@
 											<a href="#"><p>Banking/Finance</p></a>
 										</div>
 									</div>
-	                    		</div>
-		                    </div>
-
+            		</div>
+              </div>
 						</div>
 					</div>
 				</div>	
 			</section>
 			<!-- End home-about Area -->
-<br>
+      <br>
 			<!-- Start fact Area -->
 			<section class="facts-area section-gap" id="facts-area">
 				<div class="container single-fact">		
@@ -372,188 +415,48 @@
                     
                     <div class="filters">
                         <ul>
-                            <li class="active" data-filter="*">All</li>
+                            <li id="startHack" class="active" data-filter="*">All</li>
                             <li data-filter=".kdbq">KDB+/q</li>
                             <li data-filter=".python">Python</li>
                         </ul>
                     </div>
                     
                     <div class="filters-content">
-                        <div class="row grid">
-                            <div class="single-portfolio col-sm-4 all kdbq">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.png" alt="">
-	                            	</div>
-									<!-- <a href="img/p1.png" class="img-pop-up"> -->	
-									  <div class="middle">
-									    <!-- <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div> -->
-									    <div class="text align-self-center">
-										    <h4>Market Microstructure</h4>
-											<h5>KDB+/q</h5>
-											</div>	
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								</div>					                               
-                            </div>
-
-                            <div class="single-portfolio col-sm-4 all kdbq">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.png" alt="">
-	                            	</div>
-									<!-- <a href="img/p1.png" class="img-pop-up"> -->	
-									  <div class="middle">
-									    <!-- <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div> -->
-									    <div class="text align-self-center">
-										    <h4>THOR Stress Test</h4>
-											<h5>KDB+/q</h5>
-											</div>	
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								</div>					                               
-                            </div>
-
-                            <div class="single-portfolio col-sm-4 all kdbq">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.png" alt="">
-	                            	</div>
-									<!-- <a href="img/p1.png" class="img-pop-up"> -->	
-									  <div class="middle">
-									    <!-- <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div> -->
-									    <div class="text align-self-center">
-										    <h4>Ordermonitoring System</h4>
-											<h5>KDB+/q</h5>
-											</div>	
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								</div>					                               
-                            </div>
-                            
-                            <div class="single-portfolio col-sm-4 all kdbq">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.png" alt="">
-	                            	</div>
-									<!-- <a href="img/p1.png" class="img-pop-up"> -->	
-									  <div class="middle">
-									    <!-- <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div> -->
-									    <div class="text align-self-center">
-										    <h4>Report Utility Tool</h4>
-											<h5>KDB+/q</h5>
-											</div>	
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								</div>					                               
-                            </div>
-
-                            <div class="single-portfolio col-sm-4 all kdbq">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.png" alt="">
-	                            	</div>
-									<!-- <a href="img/p1.png" class="img-pop-up"> -->	
-									  <div class="middle">
-									    <!-- <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div> -->
-									    <div class="text align-self-center">
-										    <h4>BACCS Capital Comission System</h4>
-											<h5>KDB+/q</h5>
-											</div>	
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								</div>					                               
-                            </div>
-
-                            <div class="single-portfolio col-sm-4 all python">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.png" alt="">
-	                            	</div>
-									<!-- <a href="img/p1.png" class="img-pop-up"> -->	
-									  <div class="middle">
-									    <!-- <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div> -->
-									    <div class="text align-self-center">
-										    <h4>Inventory Throttling System</h4>
-											<h5>Python</h5>
-											</div>	
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								</div>					                               
-                            </div>
-
-                            <div class="single-portfolio col-sm-4 all python">
-                            	<div class="relative">
-	                            	<div class="thumb">
-	                            		<div class="overlay overlay-bg"></div>
-	                            		 <img class="image img-fluid" src="img/p1.png" alt="">
-	                            	</div>
-									<!-- <a href="img/p1.png" class="img-pop-up"> -->	
-									  <div class="middle">
-									    <!-- <div class="text align-self-center d-flex"><img src="img/preview.png" alt=""></div> -->
-									    <div class="text align-self-center">
-										    <h4>Travel Agent Automation</h4>
-											<h5>Python</h5>
-											</div>	
-									  </div>
-								</a>                              		
-                            	</div>
-								<div class="p-inner">
-								</div>					                               
-                            </div>
-                            
-                        </div>
+                      <div class="row inject-project grid" style="position: relative; height: 539.952px">
+                      </div>
                     </div>
                     
                 </div>
             </section>
             <!-- End portfolio-area Area -->	
 
-			<!-- Start testimonial Area -->
-		    <section class="testimonial-area section-gap">
-		        <div class="container">
-		            <div class="row d-flex justify-content-center">
-		                <div class="menu-content pb-20 col-lg-8">
-		                    <div class="title text-center">
-		                        <h1 class="mb-10">Feedback About Me</h1>
-		                        <p>Feedback from my manager and collegues.</p>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="row">
-		                <div class="active-testimonial">
-		                    <div class="single-testimonial item d-flex flex-row">
-		                        <div class="thumb">
-		                            <a href="https://www.linkedin.com/in/sayanb90/" target="_blank">
+  		<!-- Start testimonial Area -->
+        <section class="testimonial-area section-gap">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="menu-content pb-20 col-lg-8">
+                        <div class="title text-center">
+                            <h1 class="mb-10">Feedback About Me</h1>
+                            <p>Feedback from my manager and collegues.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="active-testimonial">
+                        <div class="single-testimonial item d-flex flex-row">
+                            <div class="thumb">
+                                <a href="https://www.linkedin.com/in/sayanb90/" target="_blank">
                                         <img class="img-fluid" src="img/elements/sayan.jpeg" alt="" style="border-radius: 50%">
                                     </a>
-		                        </div>
-		                        <div class="desc">
-		                            <p>
-		                                I have had the pleasure of working with Shubham within the Equities Quant group at HSBC. He is among the most diligent and hardworking individuals I have come across, always went above and beyond his responsibilities to deliver quality results consistently. Shubham has shown incredible maturity in handling tough situations. He also exhibits an attitude to help other members of the team and allow them to be at their best. Therefore any organization would be lucky to have Shubham as a part of their team.
-		                            </p>
-		                            <h4>Sayan Bhattacharjee</h4>
-		                            <p>AVP at HSBC</p>
-		                        </div>
-		                    </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    I have had the pleasure of working with Shubham within the Equities Quant group at HSBC. He is among the most diligent and hardworking individuals I have come across, always went above and beyond his responsibilities to deliver quality results consistently. Shubham has shown incredible maturity in handling tough situations. He also exhibits an attitude to help other members of the team and allow them to be at their best. Therefore any organization would be lucky to have Shubham as a part of their team.
+                                </p>
+                                <h4>Sayan Bhattacharjee</h4>
+                                <p>AVP at HSBC</p>
+                            </div>
+                        </div>
                             <div class="single-testimonial item d-flex flex-row">
                                 <div class="thumb">
                                     <a href="https://www.linkedin.com/in/sayanb90/" target="_blank">
@@ -568,11 +471,11 @@
                                     <p>AVP at HSBC</p>
                                 </div>
                             </div>
-		                </div>
-		            </div>
-		        </div>
-		    </section>
-		    <!-- End testimonial Area -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End testimonial Area -->
 		 		
 	
 			<!-- Start recent-blog Area -->
@@ -608,25 +511,25 @@
 							</p>
 						</div>	
 
-                        <div class="single-recent-blog col-lg-4 col-md-4">
-                            <div class="thumb">
-                                <img class="f-img img-fluid mx-auto" src="img/blog/blogmangalore_cover.jpg" alt="">   
-                            </div>
-                            <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
-                                <div>
-                                    <a href="blog-mangalore.html"><span>Shubham Raj</span></a>
-                                </div>
-                                <div class="meta">
-                                    10 April 2020
-                                </div>
-                            </div>                          
-                            <a href="blog-mangalore.html">
-                                <h4>Offkey Vacay at Mangalore</h4>
-                            </a>
-                            <p>
-                                First hand travel experience - Mangalore, Kerela 
-                            </p>
-                        </div>  											
+            <div class="single-recent-blog col-lg-4 col-md-4">
+                <div class="thumb">
+                    <img class="f-img img-fluid mx-auto" src="img/blog/blogmangalore_cover.jpg" alt="">   
+                </div>
+                <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+                    <div>
+                        <a href="blog-mangalore.html"><span>Shubham Raj</span></a>
+                    </div>
+                    <div class="meta">
+                        10 April 2020
+                    </div>
+                </div>                          
+                <a href="blog-mangalore.html">
+                    <h4>Offkey Vacay at Mangalore</h4>
+                </a>
+                <p>
+                    First hand travel experience - Mangalore, Kerela 
+                </p>
+            </div>  											
 											
 												
 					</div>
@@ -665,44 +568,71 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									  </div>
 									</form> 
 								</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-                            <div class="single-footer-widget">
-                                <h4>Follow Me</h4>
-                                <p>Let us be social</p>
-                                <div class="footer-social d-flex align-items-center">
-                                    <a href="https://www.github.com/fabpotato/"><i class="fa fa-github"></i></a>
-                                    <a href="https://www.instagram.com/_.raj_/"><i class="fa fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- End footer Area -->		
-            <script src="js/swipe-util.js"></script>	
-			<script src="js/swipe-content.js"></script>	
-			<script src="js/main-slider.js"></script>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                      <div class="single-footer-widget">
+                          <h4>Follow Me</h4>
+                          <p>Let us be social</p>
+                          <div class="footer-social d-flex align-items-center">
+                              <a href="https://www.github.com/fabpotato/"><i class="fa fa-github"></i></a>
+                              <a href="https://www.instagram.com/_.raj_/"><i class="fa fa-instagram"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <!-- End footer Area -->	
+      <script src="js/db.js"></script>
+      <script src="js/injector.js"></script>	
+      
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<!-- <script src="js/popper.min.js"></script> -->
-			 <script src="js/vendor/bootstrap.min.js"></script>	
-			<script src="js/vendor/progressbar.js"></script>			
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-    		<script src="js/jquery.tabs.min.js"></script>						
-			<script src="js/jquery.nice-select.min.js"></script>	
-            <script src="js/isotope.pkgd.min.js"></script>			
-			<script src="js/waypoints.min.js"></script>
-			<script src="js/jquery.counterup.min.js"></script>
-			<script src="js/simple-skillbar.js"></script>							
-			<script src="js/owl.carousel.min.js"></script>							
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
+      <script type="text/javascript">
+        for(j = 0; j < project_data.length; j++){
+          var project_string = inject_project_data(project_data[j])
+          document.getElementsByClassName("inject-project")[0].insertAdjacentHTML('beforeend',project_string)
+          
+        }
+
+        $(".TLselector").click(function() {
+          console.log("selected")
+          $(".cd-h-timeline__event--selected").removeClass("cd-h-timeline__event--selected")
+          var tlID = "#"+$(this).TLexp
+          $(tlID).addClass("cd-h-timeline__event--selected")
+        });
+
+        $(".single-portfolio").click(function() {
+          var exp = "#"+$(this).attr("exp")
+          $(".cd-h-timeline__event--selected").removeClass("cd-h-timeline__event--selected")
+          $(exp).addClass("cd-h-timeline__event--selected")
+          $('html, body').animate({
+              scrollTop: $(".cd-h-timeline__container").offset().top
+          }, 1000);
+        });
+
+      </script>
+
+      <script src="js/swipe-util.js"></script>  
+      <script src="js/swipe-content.js"></script> 
+      <script src="js/main-slider.js"></script>
+      <script src="js/vendor/jquery-2.2.4.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>  
+      <script src="js/vendor/progressbar.js"></script>      
+      <script src="js/easing.min.js"></script>      
+      <script src="js/hoverIntent.js"></script>
+      <script src="js/superfish.min.js"></script> 
+      <script src="js/jquery.ajaxchimp.min.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script> 
+      <script src="js/jquery.tabs.min.js"></script>           
+      <script src="js/jquery.nice-select.min.js"></script>  
+      <script src="js/isotope.pkgd.min.js"></script>      
+      <script src="js/waypoints.min.js"></script>
+      <script src="js/jquery.counterup.min.js"></script>
+      <script src="js/simple-skillbar.js"></script>             
+      <script src="js/owl.carousel.min.js"></script>              
+      <script src="js/mail-script.js"></script> 
+      <script src="js/main.js"></script>  
 				
 		</body>
 	</html>
