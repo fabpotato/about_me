@@ -10,4 +10,5 @@ var project_data = [{stack:"KDB+/q",project:"Market Microstructure",experience:"
 {stack:"KDB+/q",project:"Report Utility Tool",experience:"hsbc-exp", fclass:"kdbq"},
 {stack:"KDB+/q",project:"BACCS Capital Comission System",experience:"hsbc-exp", fclass:"kdbq"},
 {stack:"Python",project:"Inventory Throttling System",experience:"treebo-exp",fclass:"python"},
-{stack:"Python",project:"Travel Agent Automation",experience:"treebo-exp",fclass:"python"}]
+{stack:"Python",project:"Travel Agent Automation",experience:"treebo-exp",fclass:"python"},
+{stack:"KDB+/q",project:"Carbon Capcom System",experience:"ubs-exp",fclass:"kdbq"}]
