@@ -4,11 +4,20 @@ var blog_data = [{tags:["Travel","Weekend","Beach","Drive"],author:"Shubham Raj"
 {tags:["Travel","Weekend","Beach","Drive"],author:"Shubham Raj", date:"29 March 2021", title:"Tent city @ Kutch",cover_image:"img/blog/blogrann_cover.png",blog_src:"blog-rann.html", summary:"If you havent seen Kutch then you havent seen anything. is the slogan for Kutch tourism. How apt? I'll let you decide your self towards the end."}
 ]
 
-var project_data = [{stack:"KDB+/q",project:"Market Microstructure",experience:"hsbc-exp", fclass:"kdbq"},
+var project_data = [
+{stack:"KDB+/q",project:"Tick Plant Infrastructure",experience:"ms-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"AI-Assisted Development",experience:"ms-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"Anomaly Detection & Reconciliation",experience:"ms-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"Client IOI Enhancement",experience:"ms-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"IOI System",experience:"ubs-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"Carbon Commission System",experience:"ubs-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"Real-Time EMEA Interface",experience:"ubs-exp", fclass:"kdbq"},
+{stack:"Python",project:"ML Trading Signal Predictor",experience:"ubs-exp", fclass:"python"},
+{stack:"KDB+/q",project:"Automated Trade Surveillance",experience:"cba-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"Market Microstructure",experience:"hsbc-exp", fclass:"kdbq"},
 {stack:"KDB+/q",project:"THOR Stress Test",experience:"hsbc-exp", fclass:"kdbq"},
 {stack:"KDB+/q",project:"Ordermonitoring System",experience:"hsbc-exp", fclass:"kdbq"},
 {stack:"KDB+/q",project:"Report Utility Tool",experience:"hsbc-exp", fclass:"kdbq"},
-{stack:"KDB+/q",project:"BACCS Capital Comission System",experience:"hsbc-exp", fclass:"kdbq"},
+{stack:"KDB+/q",project:"BACCS Capital Commission System",experience:"hsbc-exp", fclass:"kdbq"},
 {stack:"Python",project:"Inventory Throttling System",experience:"treebo-exp",fclass:"python"},
-{stack:"Python",project:"Travel Agent Automation",experience:"treebo-exp",fclass:"python"},
-{stack:"KDB+/q",project:"Carbon Capcom System",experience:"ubs-exp",fclass:"kdbq"}]
+{stack:"Python",project:"Travel Agent Automation",experience:"treebo-exp",fclass:"python"}]
